@@ -1,0 +1,33 @@
+# ─── Model weights (too large for git — distribute via GitHub Releases) ───
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# ─── Trained-object memory (device-specific, regenerated at runtime) ───
+object_memory.pkl
+object_labels.json
+
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ─── Audio / scratch output ───
+*.wav
+camera_test.jpg
+captures/
+
+# ─── OS / editor junk ───
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ─── Large media (distribute via Releases, not git) ───
+*.mp4
+*.mov
